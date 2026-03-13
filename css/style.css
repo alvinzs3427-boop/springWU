@@ -3,13 +3,16 @@ body{
 }
 
 header{
-    background-color: rgb(154, 154, 154);
+    background-color: rgb(233, 222, 222);
     height: 15vh;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 main{
 height: 80vh;
-background-color: rgb(255, 255, 255);
+background-color: rgb(142, 139, 139);
 display: grid;
 grid-template-columns: 70% 30%;
 text-align: center;
@@ -20,26 +23,32 @@ main img{
 }
 
 nav{
-    background-color: rgb(93, 93, 93);
+    background-color: rgb(255, 255, 255);
     height: 30vh;
+    display :flex;
+    flex-direction: column;
 
 }
 nav a{
- color: rgb(172, 165, 165);   
-font-size: 3rem; /* 1 rem är 18 px */
+ color: rgb(0, 0, 0);   
+font-size: 2rem; /* 1 rem är 18 px */
 }
 
 header h1{
-    color:rgb(146, 146, 146);
+    color:rgb(32, 32, 32);
     font-size: 4rem;
     margin: 0px;
-    text-align: center;
 
+    
 }
 section{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(213, 213, 213);
     height: 65vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 }
 footer{
     background-color: rgb(184, 184, 184);
@@ -64,7 +73,7 @@ background-position: center;
 
 @media screen and (max-width:500px) {
      header{
-        background-color: pink;
+        background-color: rgb(255, 255, 255);
     }
         div#wrapper{
  min-height: 100vh ; 
