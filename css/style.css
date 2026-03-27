@@ -4,9 +4,13 @@ body{
 
 header{
     background-color: rgb(233, 222, 222);
-    height: 15vh;
+    display: flex;
+    height: 25vh;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    font-family: ;
+    
     
 }
 
@@ -23,15 +27,26 @@ main img{
 }
 
 nav{
+    
     background-color: rgb(255, 255, 255);
     height: 30vh;
     display :flex;
     flex-direction: column;
+    padding: 25px;
+     line-height: 60px;
+     
+
+   
+
+    
+    
+    
 
 }
 nav a{
  color: rgb(0, 0, 0);   
 font-size: 2rem; /* 1 rem är 18 px */
+
 }
 
 header h1{
@@ -52,14 +67,15 @@ section{
 }
 footer{
     background-color: rgb(184, 184, 184);
-    height: 600px;
+    height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center; 
 }
 
 footer .card{
 display:grid;
-grid-template-rows: 50% 50%;
+
 }
 
 
