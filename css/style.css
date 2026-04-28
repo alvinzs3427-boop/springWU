@@ -33,13 +33,13 @@ main img{
 nav{
     
    
-    height: 30vh;
+    height: 80vh;
     display :flex;
-    padding: 25px;
-     line-height: 60px;
+    padding: 40px;
+     line-height: 80px;
      position: fixed;
      top: 0;
-     justify-content: center;
+     
     
      
      
@@ -52,13 +52,13 @@ nav{
 
 }
 nav a{
- color: rgb(0, 0, 0);   
+ color: rgb(255, 255, 255);   
 font-size: 2rem; /* 1 rem är 18 px */
 
 }
 
 header h1{
-    color:rgb(32, 32, 32);
+    color:rgb(255, 255, 255);
     font-size: 4rem;
     margin: 0px;
 
