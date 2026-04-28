@@ -94,6 +94,12 @@ background-position: center;
 
 }
 
+.bg2{
+background-image: url('../img/savonen1.jpg');
+background-size: cover;
+background-position: center;
+}
+
 
 @media screen and (max-width:500px) {
      header{
