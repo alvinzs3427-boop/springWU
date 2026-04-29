@@ -30,32 +30,9 @@ main img{
    
 }
 
-nav{
-    
-   
-    height: 80vh;
-    display :flex;
-    padding: 40px;
-     line-height: 80px;
-     position: fixed;
-     top: 0;
-     
-    
-     
-     
 
-   
 
-    
-    
-    
 
-}
-nav a{
- color: rgb(255, 255, 255);   
-font-size: 2rem; /* 1 rem är 18 px */
-
-}
 
 header h1{
     color:rgb(255, 255, 255);
@@ -73,18 +50,14 @@ section{
 
 
 }
-footer{
-    background-color: rgb(177, 177, 177);
-    height: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center; 
-}
 
-footer .card{
-display:grid;
+nav{
+color: rgb(255, 255, 255);  
 
 }
+
+
+
 
 
 .bg{
@@ -122,3 +95,18 @@ background-position: center;
     display: none;
 }
 }
+footer{
+    background-color: rgb(177, 177, 177);
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center; 
+}
+
+footer .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+display:grid;
