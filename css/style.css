@@ -3,8 +3,42 @@ body{
     background-image: url(../img/savonen.jpg);
     background-size: cover;
     background-position: center -250px;
+    display: flex;
 }
 
+#wrapper{
+    min-height: 100vh ; 
+    display: grid;  
+
+    grid-template-rows: 
+    
+    'box1 box2 box3';
+}
+.box1{
+    grid-area: box1;
+    background-color: rgb(177, 151, 151);
+    height: 200px;
+    width: 150px;
+    display: flex;
+    font-size: 2rem;
+}
+
+.box2{
+    grid-area: box2;
+    background-color: rgb(177, 151, 151);
+    height: 200px;
+    width: 150px;
+    display: flex;
+    font-size: 2rem;
+}
+.box3{
+    grid-area: box3;
+    background-color: rgb(177, 151, 151);
+    height: 200px;
+    width: 150px;
+    display: flex;
+    font-size: 2rem;
+}
 
 header{
     
@@ -25,7 +59,7 @@ display: grid;
 grid-template-columns: 70% 30%;
 text-align: center;
 }
-.sc
+.section{
 main img{
    
 }
@@ -109,4 +143,3 @@ footer .card{
     justify-content: center;
     align-items: center;
 }
-display:grid;
