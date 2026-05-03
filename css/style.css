@@ -9,13 +9,14 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 .navbar {
     display: flex;
     background-color: #f7c87c;
     padding: 10px 15px;
+    
 }
 
 .navdiv {
@@ -23,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    
 }
 
 .logo a {
@@ -49,7 +51,7 @@ li a {
     background-image: url('../img/savonen.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 1600px;
 }
 
 .boxes {
@@ -66,7 +68,7 @@ li a {
 
 .box {
     width: 28%;
-    height: 300px;
+    height: 450px;
     border-radius: 8px;
     padding: 20px;
     font-size: 16px;
