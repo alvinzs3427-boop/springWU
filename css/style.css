@@ -51,7 +51,7 @@ li a {
     background-image: url('../img/savonen.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 1600px;
+    min-height: 1650px;
 }
 
 .boxes {
@@ -63,37 +63,43 @@ li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 60px;
+    padding: 0 80px;
 }
 
 .box {
     width: 28%;
     height: 450px;
     border-radius: 8px;
-    padding: 20px;
-    font-size: 16px;
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-bottom: 30px;
 }
 
 .box1 {
     background-color: rgb(230, 230, 224);
     color: black;
+   line-height: 1.6;
+    
 }
 
 .box2 {
     background-color: transparent;
+    margin-bottom: 15px;
 }
 
 .box3 {
     background-color: rgb(230, 230, 224);
     color: black;
+    line-height: 1.6;
 }
 
 .image-section {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 60px;
-    background-color: #ffffff;
+    padding: 80px;
+    background-color: #faeacc;
 }
 
 .image-card {
