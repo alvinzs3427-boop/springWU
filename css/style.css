@@ -16,7 +16,12 @@ body {
     display: flex;
     background-color: #303030;
     padding: 10px 15px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
 }
 
 .navdiv {
@@ -27,16 +32,20 @@ body {
     
 }
 
+.navdiv li{
+    display: inline-block;
+    list-style: none;
+
+
+}
+
 .logo a {
     font-size: 35px;
     font-weight: 600;
     color: #fefefe;
 }
 
-li {
-    list-style: none;
-    display: inline-block;
-}
+
 
 li a {
     font-size: 18px;
@@ -71,6 +80,7 @@ li a {
     height: 450px;
     border-radius: 8px;
     padding: 25px;
+    padding-left: 20px;
     font-size: 18px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      margin-bottom: 30px;
